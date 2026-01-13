@@ -2,7 +2,6 @@
   "name": "no-as-a-service-api-client",
   "description": "A tiny JavaScript client for the “No As A Service” API that delivers random rejection reasons with a consistent, typed response format.",
   "type": "module",
-  "version": "0.0.9",
   "version": "1.0.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
