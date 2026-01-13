@@ -1,0 +1,46 @@
+{
+  "name": "no-as-a-service-api-client",
+  "description": "A tiny JavaScript client for the “No As A Service” API that delivers random rejection reasons with a consistent, typed response format.",
+  "type": "module",
+  "version": "0.0.9",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "no-as-a-service",
+    "naas",
+    "fun-api",
+    "rejection-api",
+    "humor",
+    "random",
+    "api-client",
+    "fetch",
+    "typescript",
+    "javascript"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NPM-Workbench/no-as-a-service-api-client"
+  },
+  "homepage": "https://github.com/NPM-Workbench/no-as-a-service-api-client",
+  "bugs": {
+    "url": "https://github.com/NPM-Workbench/no-as-a-service-api-client/issues"
+  }
+}
