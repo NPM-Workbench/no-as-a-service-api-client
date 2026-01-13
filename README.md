@@ -1,4 +1,7 @@
 ![no-hero-banner-illustration](https://github.com/user-attachments/assets/123832c1-475e-4670-ab10-7002945da2c4)
+![npm](https://img.shields.io/npm/v/no-as-a-service-api-client)
+![downloads](https://img.shields.io/npm/dw/no-as-a-service-api-client)
+![license](https://img.shields.io/npm/l/no-as-a-service-api-client)
 # No As A Service API Client
 A tiny JavaScript client for the “No As A Service” API (https://naas.isalman.dev/no) that delivers random rejection reasons with a consistent, typed response format.
 
