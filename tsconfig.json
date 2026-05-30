@@ -14,5 +14,12 @@
     "forceConsistentCasingInFileNames": true,
     "types": ["jest", "node"]
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": [
+    "src/**/*.test.ts",
+    "src/**/*.spec.ts",
+    "src/**/test/**",
+    "src/**/tests/**",
+    "src/**/__tests__/**"
+  ]
 }
